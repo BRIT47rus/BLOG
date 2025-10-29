@@ -1,0 +1,7 @@
+{
+    "compilerOptions": {
+        "baseUrl": "src/"
+    },
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
