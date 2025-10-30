@@ -1,5 +1,9 @@
 import Link from 'next/link';
-import { metadata } from './layout';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: 'Ошибка',
+};
 
 metadata.title = 'Ошибка';
 export default function NotFound() {

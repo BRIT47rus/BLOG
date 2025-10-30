@@ -1,19 +1,15 @@
-Мой блог.Проект Реализован на Next.js С применением TypeScript/Tailwind
+# Мой блог.Проект Реализован на Next.js С применением TypeScript/Tailwind
 
-## Getting Started
+## Для запуска просто прописать в терминале
 
-First, run the development server:
-
-```bash
+```
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-## Deploy on Vercel
+## Про что
 
-Дизайн тут
+> Это тренировочный проект, я просто иду по документации, выполняя каждый шаг и вдумываясь
+
+Через **какой-то время** собираюсь реализовать BLOG
+
+-   30.10.2025 познал силу slug `[slug]`
