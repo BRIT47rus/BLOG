@@ -15,8 +15,8 @@ export default function RootLayout({
   return (
     <html lang="ru">
       <body>
-        <h1>Britанский BLOG</h1>
         {modal}
+        <h1>Britанский BLOG</h1>
         <main>{children}</main>
       </body>
     </html>
