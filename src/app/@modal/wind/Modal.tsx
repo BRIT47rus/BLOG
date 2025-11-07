@@ -1,6 +1,6 @@
 'use client';
 import { useRouter } from 'next/navigation';
-import React, { CSSProperties } from 'react';
+import React, { CSSProperties, ReactNode } from 'react';
 const styles: CSSProperties = {
   position: 'fixed',
   right: 20,
@@ -12,19 +12,17 @@ const styles: CSSProperties = {
   border: '1px solid black',
 };
 
-const Modal = () => {
+const Modal = ({ children, onClick }: { children?: ReactNode; onClick?: VoidFunction }) => {
   const route = useRouter();
   return (
     <div style={styles}>
       <span>Я модальное модальное окно</span>
-
+      {children}
       <button
         onClick={() => {
           route.back();
         }}
-      >
-        Закрыть
-      </button>
+      ></button>
     </div>
   );
 };

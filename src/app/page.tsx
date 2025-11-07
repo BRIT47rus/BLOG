@@ -7,6 +7,7 @@ export default function Page() {
       <h1>Hello, Next.js My blog started!</h1>;<Link href={'/article'}>Перейти к статьям </Link>
       <Post />
       <Link href={'/wind'}>Перейти к MODAL </Link>
+      <Link href={'/photo'}>Перейти к photo </Link>
     </div>
   );
 }
